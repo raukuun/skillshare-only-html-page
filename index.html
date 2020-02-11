@@ -66,31 +66,34 @@
                         </article>
                         <hr>
                     </td>
+                    <!-- This is the sidebar area -->
                     <td width="25%" valign="top">
-                        <h3></h3>
-                        <form action="GET">
-                            <div>
-                                <label for="firstname">First Name</label>
+                        <aside>
+                            <h3></h3>
+                            <form action="GET">
+                                <div>
+                                    <label for="firstname">First Name</label>
+                                    <br>
+                                    <input type="text" name="firstname" placeholder="Your name here..." required>
+                                </div>
                                 <br>
-                                <input type="text" name="firstname" placeholder="Your name here..." required>
-                            </div>
-                            <br>
-                            <div>
-                                <label for="email">Email Address</label>
+                                <div>
+                                    <label for="email">Email Address</label>
+                                    <br>
+                                    <input type="email" name="email" placeholder="you@gmail.com" id="" required>
+                                </div>
                                 <br>
-                                <input type="email" name="email" placeholder="you@gmail.com" id="" required>
-                            </div>
-                            <br>
-                            <div>
-                                <label for="info">Additional Info</label>
+                                <div>
+                                    <label for="info">Additional Info</label>
+                                    <br>
+                                    <textarea name="info" id="" cols="30" rows="10" placeholder="Anything else you might want to tell me!" maxlength="500"></textarea>
+                                </div>
                                 <br>
-                                <textarea name="info" id="" cols="30" rows="10" placeholder="Anything else you might want to tell me!" maxlength="500"></textarea>
-                            </div>
-                            <br>
-                            <div>
-                                <button type="submit">Send me a message!</button>
-                            </div>
-                        </form>
+                                <div>
+                                    <button type="submit">Send me a message!</button>
+                                </div>
+                            </form>
+                        </aside>
                     </td>
                 </tr>
             </tbody>
@@ -110,6 +113,7 @@
                     </p>
                 </td>
                 <td align="right">
+                    <!-- I hope you enjoyed reading my very basic code ;) -->
                     <p>
                         &copy;2020 Philip Ruke
                     </p>
