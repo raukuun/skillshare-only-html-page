@@ -3,22 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="learning head tags for HTML">
+    <meta name="keywords" content="learning, head, tags, html">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/raccoon.png">
+    <title>My Webpage</title>
 </head>
 <body>
     <nav>
-        
+        <h1 align="center">My Blog</h1>
+        <a href="archive.html">Older Posts</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="about.html">About Me</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="contact.html">Contact Me</a>
     </nav>
     <main>
-
-
-
-
-
-
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td>
+                        <!-- Blog starts here! -->
+                        <article>
+                            <h3>Owls, just what are they?</h3>
+                            <time>April 1st, 2030</time>
+                            <p>
+                                I mean who actually knows what owls are, but here is a video of an owl running at the camera. Look at how it tries to be a little person. Absolutely fascinating creatures. More below the cut!
+                            </p>
+                            <div>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/v5QdyxU34DU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p>
+                                <a href="recent-post.html">Read onward &rarr;</a>
+                            </p>
+                        </article>
+                        <hr>
+                        <!-- Blog post ends here, next one starts -->
+                        <article>
+                            <h3>St. Patrick's Day Shenanigans</h3>
+                            <time>March 17th, 2030</time>
+                            <p>
+                                This year we had such a blast at the local St. Pattie's day outings! Can't believe I got to meet an actual rainbow! Read more after the image!
+                            </p>
+                            <div>
+                                <img src="images/rainbow.jpeg" alt="Here's a rainbow picture I found online." width="520" height="480" title="Here's a rainbow picture I found online.">
+                            </div>
+                            <p>
+                                <a href="st-patricks-day.html">Read onward &rarr;</a>
+                            </p>
+                        </article>
+                        <hr>
+                        <!-- Blog post ends here, next one starts -->
+                        <article>
+                            <h3>Valentine's Day Releases</h3>
+                            <time>February 14th, 2030</time>
+                            <p>
+                                On the day of hearts, I was able to have such a great time seeing the new album and video game skin releases that happen annually on the day. My favorites are listed in detail following the link!
+                            </p>
+                            <p>
+                                <a href="valentines-day-post.html">Read onward &rarr;</a>
+                            </p>
+                        </article>
+                        <hr>
+                    </td>
+                    <td width="25%" valign="top">
+                        <h3></h3>
+                        <form action="GET">
+                            <div>
+                                <label for="firstname">First Name</label>
+                                <br>
+                                <input type="text" name="firstname" placeholder="Your name here..." required>
+                            </div>
+                            <br>
+                            <div>
+                                <label for="email">Email Address</label>
+                                <br>
+                                <input type="email" name="email" placeholder="you@gmail.com" id="" required>
+                            </div>
+                            <br>
+                            <div>
+                                <label for="info">Additional Info</label>
+                                <br>
+                                <textarea name="info" id="" cols="30" rows="10" placeholder="Anything else you might want to tell me!" maxlength="500"></textarea>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="submit">Send me a message!</button>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
-
+        <table width="100%">
+            <tr>
+                <td align="center">
+                    <p>
+                        <a href="https://www.twitter.com/Raukuu">Twitter</a>
+                    </p>
+                </td>
+                <td align="center">
+                    <p>
+                        <a href="facebook-link.html">Facebook</a>
+                    </p>
+                </td>
+                <td align="right">
+                    <p>
+                        &copy;2020 Philip Ruke
+                    </p>
+                </td>
+            </tr>
+        </table>
     </footer>
 </body>
 </html>

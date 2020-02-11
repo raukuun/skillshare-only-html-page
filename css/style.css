@@ -1,0 +1,24 @@
+body {
+    background-color: wheat;
+}
+img {
+    border: 1px solid grey;
+}
+h1 {
+    background-color: darkorange;
+    color: brown;    
+}
+h3 {
+    text-decoration: underline;
+    color: chocolate;
+}
+a {
+    color: brown;
+    text-decoration: none;
+    text-align: center;
+}
+input, button, textarea {
+    width: 75%;
+    border: 1px solid brown;
+    padding: 5px;
+}
